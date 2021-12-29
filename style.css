@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 5px thistle;
+    background-color: #333333;
+    color: thistle;
+
+    height: 10vh;
+}
+
+section{
+    background-color: #333333;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#About{
+    color:wheat;
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+#Skills{
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+
+
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+#bestSkills{
+    margin-top: 15px;
+}
+
+.skillList{
+    margin-bottom: 15px;
+}
+
+.stacks{
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+
+.frontend{
+    margin-left: 55px;
+    margin-bottom: 5px;
+}
+
+.backend{
+    margin-left: 55px;
+    margin-bottom: 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color: #232323;
+    height: 20vh;
+
+    color:darkcyan;
+}
+
+a{
+    text-decoration: none;
+    color: thistle;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact h4 {
+    margin: 10px;
+}
+
+.links{
+    border-bottom: solid 1px transparent;
+    transition: 1.0s;
+}
+
+.links:hover{
+    border-bottom: solid 1px thistle;
+
+    transition: 1.0s;
+}
+
